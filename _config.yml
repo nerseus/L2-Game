@@ -1,0 +1,35 @@
+# Site settings. Change `title` once the game has a real name.
+title: L2
+tagline: Swords, crossbows and spells. A lost arena shooter, rebuilt.
+description: >-
+  Dev diary and progress for L2, a multiplayer arena shooter where knights,
+  archers and spellcasters fight with steel and magic. A rebuild of an older,
+  abandoned FPS game, made on a modern engine.
+author: nerseus
+url: "https://nerseus.github.io"
+baseurl: "/L2-Game"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /diary/:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+
+minima:
+  social_links:
+    github: nerseus/L2-Game
+
+header_pages:
+  - about.md
+  - game.md
+  - roadmap.md
+  - diary.md
+
+exclude:
+  - NOTES.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
