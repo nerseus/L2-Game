@@ -33,4 +33,4 @@ character. Move it once and every character with that weapon type follows.
   the upper body while walking, running, crouching or jumping, instead of falling back to
   a generic run.
 
-<!-- SCREENSHOT: blast marks on stone, wood and metal -->
+<img width="1160" height="1152" alt="impacts" src="https://github.com/user-attachments/assets/6d0d5deb-9398-4014-be6c-7422bc7a2bf4" />
