@@ -19,4 +19,4 @@ More of the original's controls, and a few quality-of-life fixes.
 - **The weapon HUD shows your real keys.** Each slot's hint shows whatever key it's
   actually bound to, rather than a fixed 1 to 4, and grows to fit longer names like "LMB".
 
-<!-- SCREENSHOT: weapon HUD with custom key hints -->
+{% include embed/youtube.html id='4IS56x11mXE' %}
