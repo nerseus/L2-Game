@@ -1,7 +1,7 @@
 ---
 title: The Game
 icon: fas fa-shield-halved
-order: 1
+order: 3
 ---
 
 ## The classes
