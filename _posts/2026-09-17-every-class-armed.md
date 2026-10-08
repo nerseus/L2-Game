@@ -27,4 +27,4 @@ They're all gone now, along with their models, sounds, icons and spawn points. B
 anything was deleted, every file and reference was catalogued so nothing was left
 pointing at a missing gun.
 
-<!-- SCREENSHOT: all six classes holding their weapons -->
+{% include embed/youtube.html id='guf-21-dpc4' %}
