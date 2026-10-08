@@ -1,0 +1,25 @@
+#  The contact options shown at the bottom of the sidebar.
+
+- type: github
+  icon: "fab fa-github"
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
+# More options (uncomment and fill in the url when there's somewhere to follow along):
+#
+# - type: bluesky
+#   icon: 'fa-brands fa-bluesky'
+#   url: ''
+#
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''
+#
+# - type: youtube
+#   icon: 'fab fa-youtube'
+#   url: ''
+#
+# - type: discord
+#   icon: 'fab fa-discord'
+#   url: ''

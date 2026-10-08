@@ -1,7 +1,7 @@
 ---
-layout: page
 title: The Game
-permalink: /game/
+icon: fas fa-shield-halved
+order: 1
 ---
 
 ## The classes
