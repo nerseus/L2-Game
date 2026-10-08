@@ -41,4 +41,5 @@ The animation converter became a proper tool, handling the four traps found so f
 bone names that don't match, a scale that has to be measured rather than assumed,
 rotations stored "upside down" between frames, and sampling at the original's frame rate.
 
-<!-- CLIP: scimitar swing in first and third person -->
+{% include embed/youtube.html id='W18wPcStLHg' %}
+{% include embed/youtube.html id='zOU0i3hKfRk' %}
