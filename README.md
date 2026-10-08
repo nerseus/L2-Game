@@ -1,27 +1,20 @@
 # L2 *(working title)*
 
-**Swords, crossbows and spells. A lost arena shooter, rebuilt.**
+**L2 - Legends deserve to live on**
 
-L2 is a multiplayer first-person arena shooter where knights, archers and spellcasters
-fight it out with steel and magic. It is a ground-up rebuild of an older, abandoned FPS
-game involving both magic and medieval weapons. That game had a small, loyal community
-and then quietly vanished. L2 brings it back on a modern engine with modern netcode.
+L2 is a multiplayer team-based shooter. It is a ground-up rebuild of an older, abandoned FPS from the Might & Magic era.
 
 > **Status:** early development, pre-alpha. Not playable by the public yet.
 > Follow along in the [dev diary](https://nerseus.github.io/L2-Game/diary/).
 
 ## Highlights
 
-- **Eight classes.** Archer, Druid, Heretic, Paladin, Sorceress and Warrior, plus a Good
-  King and an Evil King.
-- **Steel and sorcery in one loadout.** Every fighter carries a melee weapon *and* a
-  ranged or magic weapon, with slots for an upgrade and a single-use item.
-- **43 weapons**: crossbows that fire three bolts, axes that bounce, staves that spit
-  poison clouds, wands that throw people across the room.
+- **Six classes.** Archer, Druid, Heretic, Paladin, Sorceress and Warrior.
+- **43 weapons**: Bows that rain down fire, crossbows that home in, hammers that create earthquakes, wands that shoot lightning, and so much more.
 - **First and third person**, switchable on the fly.
 - **Modern multiplayer netcode**, built for fast, responsive fights.
 
-## Where to look
+## Where it stands
 
 | | |
 |---|---|
@@ -32,11 +25,8 @@ and then quietly vanished. L2 brings it back on a modern engine with modern netc
 
 ## About this repo
 
-This repo is the project's public home: news, the dev diary, screenshots and the
-roadmap. The game's source lives elsewhere and isn't public.
+This repo is the project's public home: news, the dev diary, screenshots and the roadmap. The game's source lives elsewhere and isn't public yet.
 
 ## Disclaimer
 
-L2 is an unofficial, non-commercial fan project. It is not affiliated with, endorsed by
-or connected to any publisher or developer of the original game. All trademarks belong
-to their respective owners.
+L2 is an unofficial, non-commercial fan project. It is not affiliated with, endorsed by or connected to any publisher or developer of the original game. All trademarks belong to their respective owners.

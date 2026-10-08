@@ -7,35 +7,82 @@ permalink: /roadmap/
 A rough guide to what's done and what's next. Order may change, and dates are
 deliberately left out.
 
-## Done
+# L2 TODO
 
-- [x] Modern engine and multiplayer foundation (Unity 6 + Photon Fusion)
-- [x] All eight classes playable, with their original models
-- [x] Walking, sprinting, crouching and jumping
-- [x] Original animations brought onto modern character rigs
-- [x] First and third person views, with the original's field of view
-- [x] Four-slot loadout: Advanced, Basic, Melee, Utility
-- [x] All 43 weapons in, with timings and damage from the original data
-- [x] Projectiles: arcs, bounces, splash damage, knockback, mines
-- [x] Impact effects and surface-matched scorch marks
-- [x] Buy menu for weapon upgrades
-- [x] Main menu, character select, options and rebindable keys
-- [x] Loading screen
+## Weapons
 
-## In progress
+- [ ] Implement proper projectiles for secondary attacks
+  - [ ] Death Blossom Bow
+  - [ ] Eye Bow
+  - [ ] Gatling Crossbow
+  - [ ] Ice Blast Crossbow
+  - [ ] Tracking Crossbow
+  - [ ] Charge Rod
+  - [ ] Flare Rod
+  - [ ] Rod of Souls
+  - [ ] Wand
+  - [ ] Gravity Axe
+  - [ ] Secret Weapon
+  - [ ] Fire Ring Staff
+  - [ ] Staff of Sparking
+  - [ ] Scrolls
 
-- [ ] Tuning every weapon's look, sound and feel against the original
-- [ ] Animation polish (equip, two-handed weapons)
+## Armor
 
-## Next
+- [ ] Implement buy menu and skin change
+- [ ] Track armor value as damage reduction
 
-- [ ] Maps
-- [ ] Game modes
-- [ ] Rounds, scoring and match flow
-- [ ] Picking up and dropping weapons
-- [ ] Armor
+## Movement
 
-## Later
+- [x] Climbing volumes
+- [x] General movement closer to LOMM
+  - [x] Movement speed
+  - [x] Jumping/falling speed
+  - [x] Jumping behavior
+  - [x] Proper jump/crouch hitbox sizing
+  - [ ] Standing at edge of water (Wedding Day water edges)
+- [ ] Swimming volumes
 
-- [ ] Closed playtests
-- [ ] Public builds
+## Animations
+
+Done for now (2026-10-06): jumping, running, walking, idle, weapons (attack, reload), looking, climbing, falling.
+
+- [ ] Winces (hit reactions) - `Wince0`-`Wince6`, likely a different one per body part hit; LOMM also names `WinceAir` / `WinceWater`
+- [x] Swimming - `swim`, `swimreverse`, `standwater` (with swimming volumes)
+- [ ] Taunts - `taunt1`-`taunt3` (needs a taunt input)
+- [x] Crouch deaths - `CrouchDie1` / `CrouchDie2`, one at random when killed while crouched
+- [ ] Remove the death-animation test keys (7-9, [ ]) - `AgentSelectionController`, `Health.RPC_TestDeath`, `Player.RPC_TestSpectate`, `DeadState` restart
+
+## Worlds
+
+- [ ] Volumes
+  - [ ] Water
+    - [x] PolyGrid
+    - [ ] Texture animation, scrolling, etc.
+  - [ ] Lava/Kato
+    - [ ] Damage
+- [ ] Skyboxes
+
+## Gameplay
+
+- [ ] Money
+  - [ ] Tracking money
+  - [ ] Buying
+  - [ ] Awards for killing, winning/losing
+- [ ] Pickups
+- [ ] Set up world from map + props, lights, etc.
+
+## Game Modes
+
+- [ ] Princess
+- [ ] Warlord
+- [ ] Dragon
+- [ ] Sword in Stone
+
+## Prop Scripts
+
+- [ ] Chests - interactive open and close
+- [ ] Doors - interactive open and close
+  - [ ] Hinge
+  - [ ] Rotate
+  - [ ] Slide
