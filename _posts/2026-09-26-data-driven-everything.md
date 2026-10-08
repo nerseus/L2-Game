@@ -35,4 +35,4 @@ against the original down to the crosshair spread.
 The player setup was also reorganised and a lot of dead code from the template was
 removed.
 
-<!-- SCREENSHOT: the weapon browser -->
+<img width="1952" height="1423" alt="definitions" src="https://github.com/user-attachments/assets/b3c3d4a0-31f1-4e5e-b13d-e3132cf48c28" />
