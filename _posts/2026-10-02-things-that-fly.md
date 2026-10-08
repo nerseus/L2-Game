@@ -18,6 +18,9 @@ All 6 player class weapons are finished including models in first person, 3rd pe
 
 {% include embed/youtube.html id='x7mr_GblSt0' %}
 
+All bought weapons are converted and brought in. Many have primary working, some have secondary working.
+{% include embed/youtube.html id='4WKHExNRDK0' %}
+
 ## Attack behaviours
 
 What a shot does now comes from its projectile's data:
