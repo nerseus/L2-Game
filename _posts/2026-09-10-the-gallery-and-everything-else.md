@@ -35,4 +35,4 @@ and you can handle it:
 Models that aren't playable characters sit in their raw bind pose by default (usually
 lying flat), so the gallery picks each one's display pose instead.
 
-<!-- SCREENSHOT: the gallery showing the dragon, and a throwing axe -->
+{% include embed/youtube.html id='4lPc92EjmSQ' %}
