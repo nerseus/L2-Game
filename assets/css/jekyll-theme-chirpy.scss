@@ -1,0 +1,46 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Roadmap: collapsible sections (see _plugins/collapsible-sections.rb) */
+details.roadmap-section {
+  border: 1px solid var(--main-border-color, rgba(128, 128, 128, 0.3));
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+  margin-bottom: 0.75rem;
+
+  > summary {
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    color: var(--heading-color);
+  }
+
+  &[open] > summary {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--main-border-color, rgba(128, 128, 128, 0.3));
+  }
+
+  &[data-state='done'] > summary::after {
+    content: ' \2713';
+    color: #2ea043;
+  }
+}
+
+.roadmap-controls {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}

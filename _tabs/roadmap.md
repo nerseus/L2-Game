@@ -1,11 +1,14 @@
 ---
 title: Roadmap
 icon: fas fa-road
-order: 2
+order: 1
+collapsible_sections: true
 ---
 
 A rough guide to what's done and what's next. Order may change, and dates are
-deliberately left out.
+deliberately left out. Click a section to expand it.
+
+<p class="roadmap-controls"><a href="#" onclick="document.querySelectorAll('details.roadmap-section').forEach(function(d){d.open=true;});return false;">Expand all</a> &middot; <a href="#" onclick="document.querySelectorAll('details.roadmap-section').forEach(function(d){d.open=false;});return false;">Collapse all</a></p>
 
 ## Foundation
 
@@ -13,6 +16,37 @@ deliberately left out.
 - [x] Play-mode iteration without domain reloads
 - [x] In-game debug console and developer tools (animation debugger, pose preview, weapon browser)
 - [x] Original game data tables (weapons, projectiles, players, armor) converted into editable definitions
+
+## Lithtech to Unity
+
+The [converter]({{ '/lithtech-to-unity/' | relative_url }}) that turns the original game's
+files into Unity assets.
+
+- [x] Sounds (WAV) imported for Unity
+- [x] Textures (DTX) converted to PNG, with default materials
+- [x] Sprites (SPR) read, to help match textures to models
+- [x] Models (ABC)
+  - [x] Meshes, one per piece per level of detail
+  - [x] Skeletons
+  - [x] Bone animation (position and rotation)
+  - [x] Morph (vertex) animation as blend shapes
+  - [x] Humanoid avatars for biped skeletons
+  - [x] One prefab per model, with its textures from the world data
+- [x] Worlds (DAT)
+  - [x] World geometry as a mesh and prefab
+  - [x] Models placed with the right position, rotation and scale
+  - [x] Lights
+  - [x] Sounds that fade with distance
+  - [x] World objects
+- [ ] Transparency fixes
+- [ ] Sprites as real Unity objects that cycle through their frames
+- [ ] Skybox generation (currently pre-converted textures)
+- [ ] Faster re-runs for models and worlds (only audio, textures and materials skip work today)
+- [ ] Better grouping of world geometry and world objects
+- [ ] Scripts on objects to keep their original world properties
+- [ ] Sound looping from the original data (everything loops for now)
+- [ ] Nice to have: gibs
+- [ ] Nice to have: better mesh merging, including morph animation data
 
 ## Characters
 

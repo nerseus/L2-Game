@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 6
+order: 7
 ---
 
 ## Where L2 came from
@@ -35,6 +35,8 @@ building it in the evenings, who played the original far too much.
 
 Progress is posted in the dev diary on the [home page]({{ '/' | relative_url }}), and
 what's coming next is on the [roadmap]({{ '/roadmap/' | relative_url }}).
+
+<div style="clear: both;"></div>
 
 ## Disclaimer
 
