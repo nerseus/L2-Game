@@ -18,6 +18,8 @@ weapon's range takes the hit, and walls block it. The look lingers, though: a st
 flames leaves the staff one after another, each heading wherever you're aiming as it
 leaves, so moving or turning sprays them around, just like the original.
 
+{% include embed/youtube.html id='hWTtqJ_bhGs' %}
+
 ## Splash that respects walls
 
 Explosions now check line of sight. Someone around a corner is safe unless part of them
