@@ -10,6 +10,13 @@ description: "Every primary attack gets its real behaviour: beams, bounces, spla
 
 <!-- Source: L2 PR #30. First pass generated from the file changes; edit freely. -->
 A big pass over every weapon's primary attack.
+All 6 player class weapons are finished including models in first person, 3rd person, particles, damage effects, etc. -- with noted exceptions:
+- Palading Gatling Crossbow - charge fire not implemented yet.
+- Sorceress Wand Secondary - held beam not implemented yet.
+- Heretic Soul Rod Secondary - homing not implemented yet.
+- Archer Eye Bow Secondary - guided FPS arrow not implemented yet.
+
+{% include embed/youtube.html id='x7mr_GblSt0' %}
 
 ## Attack behaviours
 
