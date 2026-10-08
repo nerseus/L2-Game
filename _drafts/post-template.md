@@ -1,28 +1,31 @@
 ---
-layout: post
 title: "Post title"
-date: YYYY-MM-DD
-# image: /assets/images/YYYY-MM-DD-slug.png   # social preview image (1200x630 works best)
+date: YYYY-MM-DD HH:MM:SS -0500
+categories: [Dev Diary, Weapons]   # second level: Art, Animation, Characters, Movement, Tools, UI, Weapons
+tags: [weapons, effects]           # lowercase, any number
+description: "One sentence shown on the home page and in link previews."
+# image:                           # optional social preview / header image (1200x630 works best)
+#   path: /assets/img/posts/YYYY-MM-DD-slug.png
+#   alt: "What the image shows"
 ---
 
-One or two sentences that work on their own. This becomes the excerpt shown on the
-diary page and in link previews.
-<!--more-->
+Opening paragraph.
 
 ## What changed
 
 - ...
 
-![Caption]({{ "/assets/images/YYYY-MM-DD-slug.png" | relative_url }})
+![A Paladin firing a crossbow](/assets/img/posts/YYYY-MM-DD-slug.png)
+_Optional caption: an italic line straight after the image._
 
-<!-- Video: upload to YouTube and link it rather than committing it:
-[Watch the clip](https://youtu.be/...) -->
+{% include embed/youtube.html id='VIDEO_ID' %}
 
 ## What's next
 
 ...
 
 <!--
-To publish: copy this file to _posts/YYYY-MM-DD-slug.md, fill it in, commit, push.
-Images go in assets/images/ named YYYY-MM-DD-slug[-n].png.
+To publish: copy this file to _posts/YYYY-MM-DD-slug.md, fill it in, commit, push to main.
+Images go in assets/img/posts/ named YYYY-MM-DD-slug[-n].png.
+YouTube: VIDEO_ID is the part after "v=" (or after "youtu.be/") in the video's link.
 -->

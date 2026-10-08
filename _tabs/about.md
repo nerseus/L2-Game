@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about/
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 6
 ---
 
 ## Where L2 came from
@@ -20,15 +20,21 @@ Nothing since has quite scratched that itch. L2 is an attempt to bring it back.
   pacing and odd charm, played on today's hardware.
 - **Built on a modern engine.** Unity 6, with Photon Fusion networking for
   responsive, server-authoritative multiplayer.
-- **Faithful where it counts.** Weapon timings, damage, projectile speeds and even the
-  original field of view are matched to the old game's data, not guessed.
+- **Faithful where it counts.** Weapon timings, damage, projectile speeds, movement and
+  even the original field of view are matched to the old game's data and measurements,
+  not guessed.
 - **Improved where it should be.** Better netcode, better rendering, modern controls
   and rebindable keys.
 
 ## Who's making it
 
-L2 is a solo hobby project by [nerseus](https://github.com/nerseus). It's built in the
-evenings by someone who played the original far too much.
+![ner software](/assets/img/ner-software-logo.png){: w="160" h="160" .left }
+
+L2 is made by **ner software**. It's currently a **solo-dev project**: one developer,
+building it in the evenings, who played the original far too much.
+
+Progress is posted in the dev diary on the [home page]({{ '/' | relative_url }}), and
+what's coming next is on the [roadmap]({{ '/roadmap/' | relative_url }}).
 
 ## Disclaimer
 
