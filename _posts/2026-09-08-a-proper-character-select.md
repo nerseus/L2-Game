@@ -19,4 +19,4 @@ The character selection screen got a rework.
   so the model stays put on screen instead of sliding sideways. Leaving the screen resets
   the view, so the main menu never shows a character left in an odd pose.
 
-<!-- SCREENSHOT: character select with the preview zoomed in -->
+<img width="834" height="579" alt="character select" src="https://github.com/user-attachments/assets/53735f13-c499-4902-99a9-32766ac761f9" />
