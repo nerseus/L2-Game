@@ -8,11 +8,14 @@ description: "Movement rebuilt to match measurements from the original, down to 
 #   path: /assets/img/posts/2026-10-04-moving-like-the-original.png   # 1200x630 social preview
 ---
 
-{% include embed/youtube.html id='k3FVmvSOBII' %}
-
 <!-- Source: L2 PR #32. First pass generated from the file changes; edit freely. -->
 Player movement was rebuilt from scratch to match the original, using frame-by-frame
 recordings and tests in the original game.
+
+{% include embed/youtube.html id='k3FVmvSOBII' %}
+
+Also tested slopes, angles, speeds, etc.
+{% include embed/youtube.html id='MTL3DFrA9xg' %}
 
 ## What was measured, and matched
 
