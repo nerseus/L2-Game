@@ -67,9 +67,16 @@ files into Unity assets.
   - [x] Proper jump/crouch hitbox sizing
   - [x] Fall damage
   - [x] Slopes: walkable, too steep and sliding
-  - [ ] Standing at the edge of water
 - [x] Climbing volumes (ladders)
-- [ ] Swimming volumes
+- [ ] Swimming volumes (about 90% done)
+  - [x] Swimming on the surface and underwater, with animations
+  - [x] Jumping in and out, sinking, and treading water with your head above the surface
+  - [x] Splash and underwater sounds
+  - [x] Holding your breath, and drowning
+  - [ ] Walking along the edge of water (movement and sounds)
+  - [ ] Tune the sinking speed
+  - [ ] Movement tweaks when jumping out of water
+  - [ ] Air meter on the HUD and proper drowning damage numbers
 
 ## Camera and views
 
@@ -87,7 +94,7 @@ climbing, falling.
 - [x] Weapon stances per weapon type, upper body blended over movement
 - [x] First-person weapon models with their own idle, fidget, attack and reload animations
 - [x] Deaths, including crouch deaths (one at random when killed while crouched)
-- [x] Swimming animations (ready for swimming volumes)
+- [x] Swimming animations
 - [ ] Winces (hit reactions), likely a different one per body part hit
 - [ ] Taunts (needs a taunt key)
 - [ ] Remove the death-animation test keys
@@ -146,10 +153,13 @@ climbing, falling.
 
 - [x] First test map
 - [ ] Volumes
-  - [ ] Water
-    - [x] Water surface mesh
-    - [ ] Texture animation, scrolling, etc.
+  - [x] Water
+    - [x] Water surface with waves
+    - [x] Textures, transparency and animation
+    - [x] Underwater colour and fog
   - [ ] Lava
+    - [x] Swimmable, with its own surface
+    - [x] Fog
     - [ ] Damage
 - [ ] Skyboxes
 - [ ] Set up worlds from map + props, lights, etc.
