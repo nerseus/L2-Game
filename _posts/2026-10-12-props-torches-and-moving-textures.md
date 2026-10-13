@@ -12,6 +12,9 @@ description: "Models placed in converted maps, with the original's collision, fl
 The converted maps were bare. Now the props are back: trees, crates, thrones, torches and
 candles, placed the way the original placed them.
 
+Here's a short demo of the map Wedding Day.
+{% include embed/youtube.html id='ZEll5iDHr_A' %}
+
 <!-- CLIP: props, torches and candles in a converted map (YouTube) -->
 
 ## Models
