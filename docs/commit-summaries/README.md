@@ -1,0 +1,26 @@
+# Commit summaries
+
+One short page per non-merge commit, oldest first. Each has a Media placeholder for screenshots and videos. Merge commits (PRs #1–#5) are covered by the commits they bring in.
+
+- [Initial site: landing page, about, game, roadmap and first dev diary posts](01-initial-site.md)
+- [Small text updates](02-small-text-updates.md)
+- [Switch to Chirpy theme, add dev diary posts and update roadmap](03-chirpy-theme-and-diary-posts.md)
+- [Collapsible roadmap, Lithtech to Unity page, About fix, sidebar order](04-collapsible-roadmap-lithtech-page.md)
+- [Update character select screenshot in markdown](05-character-select-screenshot.md)
+- [Update gallery post to include YouTube video](06-gallery-video.md)
+- [Embed YouTube videos for animation converter](07-animation-converter-videos.md)
+- [Embed YouTube video in every-class-armed post](08-every-class-armed-video.md)
+- [Embed YouTube video in more-actions post](09-more-actions-video.md)
+- [Replace old screenshot with new weapon browser image](10-weapon-browser-screenshot.md)
+- [Embed YouTube video in loading.md](11-loading-video.md)
+- [Update weapon stance and add impact screenshot](12-impacts-screenshot.md)
+- [Finish primary attack implementation for all weapons](13-primary-attacks-finished.md)
+- [Update weapon details in things that fly post](14-weapon-conversion-update.md)
+- [Embed YouTube video in magic-fixed post](15-magic-fixed-video.md)
+- [Refine player movement to match original game mechanics](16-player-movement-refinement.md)
+- [Revise YouTube embeds for player movement section](17-movement-slopes-video.md)
+- [Embed YouTube video for climbing animations](18-climbing-video.md)
+- [Add swimming post and update roadmap for water](19-swimming-post-and-roadmap.md)
+- [Add posts for runtime conversion work (L2 PRs #36-#40 and the props branch)](20-runtime-conversion-posts.md)
+- [Include demo video for Wedding Day map](21-wedding-day-demo-video.md)
+- [Add lightmaps post (L2 PR #42)](22-lightmaps-post.md)
