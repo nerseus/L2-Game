@@ -14,7 +14,7 @@
 
 /* append your custom style below */
 
-/* Roadmap: collapsible sections (see _plugins/collapsible-sections.rb) */
+/* Issues: collapsible sections (see _plugins/collapsible-sections.rb) */
 details.roadmap-section {
   border: 1px solid var(--main-border-color, rgba(128, 128, 128, 0.3));
   border-radius: 0.5rem;
@@ -33,14 +33,29 @@ details.roadmap-section {
     margin-bottom: 0.5rem;
     border-bottom: 1px solid var(--main-border-color, rgba(128, 128, 128, 0.3));
   }
-
-  &[data-state='done'] > summary::after {
-    content: ' \2713';
-    color: #2ea043;
-  }
 }
 
 .roadmap-controls {
   margin-bottom: 1rem;
   font-size: 0.9rem;
+}
+
+/* Home: the "now live" banner above the post list (_layouts/home.html) */
+.l2-banner {
+  border: 1px solid var(--main-border-color, rgba(128, 128, 128, 0.3));
+  border-left: 4px solid #b08d3c;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--card-bg, transparent);
+
+  .l2-banner-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: var(--heading-color);
+  }
+
+  a {
+    font-weight: 600;
+  }
 }
