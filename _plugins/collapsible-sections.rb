@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 #
 # Turns every "## Heading" section of a page with `collapsible_sections: true`
-# into a collapsed <details> block. The summary counts the section's
-# checklist items, e.g. "Foundation (4 items complete)" or
-# "Movement (9 out of 11 complete)". Nested checklist items are counted too.
+# into a <details> block, expanded by default. The summary counts the
+# section's top-level list items, e.g. "Gameplay - 8 items".
 #
 # Keep writing the page as plain Markdown; the counts update on every build.
 
@@ -20,22 +19,12 @@ Jekyll::Hooks.register [:pages, :documents], :pre_render do |doc|
     title = heading.sub(/^##\s+/, '').strip
     body = body.to_s
 
-    done = body.scan(/^\s*[-*+] \[[xX]\]/).size
-    total = done + body.scan(/^\s*[-*+] \[ \]/).size
-
-    summary =
-      if total.zero?
-        title
-      elsif done == total
-        "#{title} (#{total} #{total == 1 ? 'item' : 'items'} complete)"
-      else
-        "#{title} (#{done} out of #{total} complete)"
-      end
-
-    state = if total.zero? then 'none' elsif done == total then 'done' else 'open' end
+    # Top-level items only: nested items are details of the item above them.
+    count = body.scan(/^[-*+] /).size
+    summary = count.zero? ? title : "#{title} - #{count} #{count == 1 ? 'item' : 'items'}"
 
     <<~HTML
-      <details class="roadmap-section" data-state="#{state}" markdown="1">
+      <details class="roadmap-section" open markdown="1">
       <summary>#{summary}</summary>
 
       #{body.strip}
