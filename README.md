@@ -19,13 +19,13 @@ L2 is a multiplayer team-based shooter. It is a ground-up rebuild of an older, a
 | | |
 |---|---|
 | [About](https://nerseus.github.io/L2-Game/about/) | Where L2 came from and why it exists |
-| [The Game](https://nerseus.github.io/L2-Game/game/) | Classes, weapons and how a fight plays |
-| [Roadmap](https://nerseus.github.io/L2-Game/roadmap/) | What's done, what's next |
+| [Download](https://nerseus.github.io/L2-Game/download/) | The Windows installer, and getting past SmartScreen |
+| [Issues](https://nerseus.github.io/L2-Game/issues/) | Known problems from play testing |
 | [Dev diary](https://nerseus.github.io/L2-Game/) | Progress posts, screenshots and clips |
 
 ## About this repo
 
-This repo is the project's public home: news, the dev diary, screenshots and the roadmap. The game's source lives elsewhere and isn't public yet.
+This repo is the project's public home: news, the dev diary, screenshots and known issues. The game's source lives elsewhere and isn't public yet.
 
 ## Disclaimer
 

@@ -34,12 +34,18 @@ L2 is made by **ner software**. It's currently a **solo-dev project**: one devel
 building it in the evenings, who played the original far too much.
 
 Progress is posted in the dev diary on the [home page]({{ '/' | relative_url }}), and
-what's coming next is on the [roadmap]({{ '/roadmap/' | relative_url }}).
+known problems are listed on the [issues]({{ '/issues/' | relative_url }}) page.
 
 <div style="clear: both;"></div>
 
 ## Disclaimer
 
-L2 is an unofficial, non-commercial fan project. It is not affiliated with, endorsed by
-or connected to any publisher or developer of the original game. All trademarks belong
-to their respective owners.
+This is an unofficial fan-made remake of Legends of Might and Magic, originally developed by
+New World Computing and published by 3DO. It is not affiliated with or endorsed by 3DO, New
+World Computing, or the current rights holders of the Might and Magic series.
+
+L2 was created as a tribute to the original game and its legacy. It has been a work in
+progress for almost 25 years. L2 is the sole work of nerseus with help from:
+
+- [Unity](https://unity.com)
+- [Photon Fusion](https://doc.photonengine.com/fusion/v2/game-samples/br200/overview) and its BR200 sample
